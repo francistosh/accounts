@@ -1,0 +1,109 @@
+.container{border:1px solid black;border-radius:5px;}
+
+.logo{width:250px;}
+
+.main{border:2px solid #A83A00;
+	padding:10px;
+	border-radius:7px;}
+	
+.top{margin-left:5px;margin-right:5px;border-bottom:1px solid black;}	
+
+.menu{padding:10px;}
+
+.title{background-color:green;
+	padding:5px;
+	color:white;
+	font-size:16px;
+	border-radius:7px;
+	box-shadow: 8px 5px 5px #888888;}
+	
+.link{padding-top:5px;
+	padding-bottom:5px;
+	padding-right:50px;
+	padding-left:50px;
+	background-color:#FFB349;
+	margin-top:20px;
+	color:white;
+	font-size:14px;}
+.link:hover{background-color:#008000;}		
+.reports{padding:10px;}
+.reports td{
+    text-align: right;
+}	
+.report1{padding:50px;
+	background-color:#53E389;
+	border-color:#53E389;
+	margin-top:20px;}
+	
+#report1{
+	width: 140px;
+    height: 100px;
+    line-height: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    text-decoration: none;
+	background-color:#2b85f2;
+	border-color:#2b85f2;
+	margin-top:20px;
+	}
+#report1:hover{background-color:#92bdf1;
+	border-color:#92bdf1;}	
+
+#report2{
+	width: 140px;
+    height: 100px;
+    line-height: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    text-decoration: none;
+	background-color:#ff2245;
+	border-color:#ff2245;
+	margin-top:20px;
+	margin-left:10px;
+	}
+#report2:hover{background-color:#f18697;
+	border-color:#f18697;}	
+
+#report3{
+	width: 140px;
+    height: 100px;
+    line-height: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    text-decoration: none;
+	background-color:#97206b;
+	border-color:#97206b;
+	margin-top:20px;
+	margin-left:10px;
+	}
+#report3:hover{background-color:#a7618d;
+	border-color:#a7618d;}	
+
+#report4{
+	width: 140px;
+    height: 100px;
+    line-height: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    text-decoration: none;
+	background-color:#f4b46b;
+	border-color:#f4b46b;
+	margin-top:20px;
+	margin-left:10px;
+	}
+#report4:hover{background-color:#f1cea6;
+	border-color:#f1cea6;}	
+
+
+.footer{float:right;}
+
+/*full.php*/
+.table-bordered{margin-top:20px;}
+.th{background-color:#F8B500 !important;color:white;}
+td{color:#AD00A4;font-size:12px;}
+th{font-size:11px;}
+.p{margin-top:20px;
+	text-align:center;
+	font-weight:bold;}
+/*detsabil.php*/
+.width{width:10px;}

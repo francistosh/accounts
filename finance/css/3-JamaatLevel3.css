@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+#div_datainput{
+	padding:10px;
+}
+
+select.formfield{
+		width:199px;
+	}
+#searchinput{
+	/* //width:350px;*/
+	height:25px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border-radius:0px;
+	border-color:#F99;
+	}
+#searchinput:hover{
+	/*	//border-color:#BEBEBE; */
+	}
+#searchinput:focus{
+		border-color:#BEBEBE;
+		 
+		 box-shadow: 0px 0px 1px #888888;
+		-moz-box-shadow: 0px 0px 1px #888888;
+  		-webkit-box-shadow: 0px 0px 1px #888888;
+	}
+
+#div_search{
+	padding-top:5px;
+	}
+#div_pagination{
+	border:1px solid;
+	margin-top:10px;
+	/* //margin-left:3px;*/
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+#div_tablecontent{
+	margin-top:10px;
+
+	}
+
+.formtablestyle{
+	border-collapse:collapse;
+	/* //border-bottom:#999 2px solid; 
+	//border-top-left-radius:5px;
+	//border-top-right-radius:5px; */
+	}
+
+.formtablestyle th{
+	/* //border-collapse:collapse; */
+	border-bottom:#9C0 2px solid;
+	text-align:left;
+	background-color:#9C3;
+	padding: 5px 10px 0px 5px;
+	}
+.formtablestyle tfoot{
+	/* //border-collapse:collapse;
+	//border-bottom:#9C0 2px solid;
+	//text-align:left;  */
+	background-color:#9C3;
+	padding: 5px 10px 0px 5px;
+	}
+		
+.formtablestyle td{
+	padding:5px 4px 5px 4px;
+	border-bottom:1px solid #CCC;
+
+	}
+	
+.formtablestyle tr:hover td
+{
+	background:#ACEEB8;
+	/*  //color: #339; */
+	border-bottom:1px solid #9C3;
+}
+
+#remark1{
+	width:320px;
+	/*  //width:95%; 
+	//padding: 5px 5px 5px 5px; */
+	}
+	
+#remark2{
+	width:567px;
+	/* //width:95%;
+	//padding: 5px 5px 5px 5px; */
+	}

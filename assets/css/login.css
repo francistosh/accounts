@@ -1,0 +1,13 @@
+body {
+  background: url(background.jpg) repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+font-size:11px;
+   position: relative;
+  z-index: -9999 !important;
+  min-height: 90%;
+	height: 100%;
+    font-family: "Segoe UI Local","Segoe WP","Segoe UI Web",Tahoma,"Helvetica Neue",Helvetica,"Meiryo UI",Meiryo,Arial Unicode MS,sans-serif !important;
+}

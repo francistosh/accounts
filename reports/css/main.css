@@ -1,0 +1,63 @@
+body{margin-top:50px;}
+
+.logo{width:250px;}
+
+.main{border:2px solid #A83A00;
+	padding:10px;
+	border-radius:7px;}
+	
+.top{margin-left:5px;margin-right:5px;border-bottom:1px solid black;}	
+
+.menu{padding:10px;}
+
+.title{background-color:green;
+	padding:5px;
+	color:white;
+	font-size:16px;
+	border-radius:7px;
+	box-shadow: 8px 5px 5px #888888;}
+	
+.link{padding-top:5px;
+	padding-bottom:5px;
+	padding-right:50px;
+	padding-left:50px;
+	background-color:#FFB349;
+	margin-top:20px;
+	color:white;
+	font-size:14px;}
+.link:hover{background-color:#008000;}		
+.reports{padding:10px;}
+	
+.report1{padding:50px;
+	background-color:#53E389;
+	border-color:#53E389;
+	margin-top:20px;}
+	
+.report1:hover{background-color:#B9EDB8;
+	border-color:#B9EDB8;}
+	
+.report2{padding:50px;
+	background-color:#F6286B;
+	border-color:#F6286B;
+	margin-left:20px;
+	margin-top:20px;}
+
+.report2:hover{background-color:#E89BB3;
+	border-color:#E89BB3;}	
+
+.footer{float:right;}
+
+/*choose.php*/
+
+.p{display: block;
+	width: 250%;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: inherit;
+	color: #333;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5}
+.tick{margin-left:20px;}
+
+.btn{margin-left:400px;padding-right:20px;border-color:brown;}

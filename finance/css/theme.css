@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1.titletext{
+	/*Mombasa Jamaat Online Title*/
+
+	color:#f8b500; /*  //00DAAA; */
+}
+h2.titletext{
+	/*Current Location Title*/
+
+	color:#f8b500;
+}
+
+#div_pagecontent{
+	/*Div that contains all page content*/
+        border: #f8b500 2px solid;
+	}
+#div_logindetails{
+	border-bottom:1px solid #4dd912;
+	}
+h3.titletext{
+	}
+
+
+
+.formbuttons{
+	border:1px #CCC solid;
+	background: #CCC;
+        height: 30px;
+        font-weight: bold;
+	}
+.formbuttons:hover{
+
+	}
+#tablist{ font-family:"Trebuchet MS"; width:100%; border-collapse:collapse; }
+#tablist{ font-size:85%; text-align: left; }
+#tablist td {border:1px solid black;padding:3px 4px 2px 5px;}
+#tablist th { background-color:#9c8468;; padding-top:5px;  }      
+#div_pagination{
+	border-color:#4dd912;
+	}
+.formtablestyle th{
+
+    background-color: #357918;
+	}
+          #addebt{
+       
+    box-shadow: 16px 16px 16px rgba(0,0,0, .4);
+    -webkit-box-shadow: 16px 16px 16px rgba(0,0,0, .4);
+-moz-box-shadow: 16px 16px 16px rgba(0,0,0, .4);
+
+          }
+          #gallery{
+        position: absolute;
+    top: 130px;
+    margin-left: 410px;
+    border: 3px solid #00529B;
+    border-radius: 6px;
+    display: none;
+    z-index:10;
+    height:350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 400px;
+   
+   
+    box-shadow: 16px 16px 16px rgba(0,0,0, .4);
+    -webkit-box-shadow: 16px 16px 16px rgba(0,0,0, .4);
+-moz-box-shadow: 16px 16px 16px rgba(0,0,0, .4);
+
+}
+#gallery ::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}
+.texinput{
+    width: 180px;
+    height:30px;
+    text-align: left;
+    margin-left: 10px;
+    
+    
+  border: 2px solid #CCC; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;  
+      
+     
+}
+.images
+  {
+  margin:5px;
+  padding: 5px;
+  border:1px solid #c8df32;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  border-radius: 4px;
+  }
+.images img {
+    border:1px solid #c8df32;
+}
+
+.images img:hover {
+  border:1px solid #0000ff;
+  border-radius: 4px;
+  	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        transform:scale(2.5);
+    -ms-transform:scale(2.5); /* IE 9 */
+    -moz-transform:scale(2.5); /* Firefox */
+    -webkit-transform:scale(2.5); /* Safari and Chrome */
+    -o-transform:scale(2.5); /* Opera */
+        
+  }
+  .btncls{
+      
+      background-color: #ccc;
+      display: inline-block;
+      border: 1px solid #777;
+      text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  }
+  .btncls:hover{
+      background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+  }

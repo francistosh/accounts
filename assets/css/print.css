@@ -1,0 +1,30 @@
+ 
+ BODY
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white
+}
+#tabs,#ch_print,#printtoolbar,#jimsfooter,#gnrt,#lmenulevel2,#invoiceviewer,#div_homeicon,#topBar,#div_jamaatlogo,#myinvoiceprint,#invhd,#setupxx,#lmenu,#vchrprint201,#b_home,#butnback,#rcpclose201,#rcpprint201,#footer_wrap,#ch_back,#footer,#safprint,#navbar,#safrefresh,#safcancel,.ui-dialog,.ui-dialog-titlebar,#searchbar,#hd,#print_panel,#rcptprint,#_topBar{
+    display: none; 
+}
+ 
+a:afterss
+{
+	content:' [' attr(href) '] '
+}	
+.breakAfter {
+	page-break-after: always;
+        border-bottom: 1px #000 solid;
+            
+}
+ thead {display: table-header-group;}  
+ #div_pagecontainer{
+     border: none;
+ }
+ #invoiceviewer1{
+   margin: 0 ;
+   left: 0px;
+   float: left;
+ }

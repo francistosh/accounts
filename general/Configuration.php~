@@ -1,0 +1,50 @@
+<?php
+
+interface  setup{    //interface class implemented by all classes
+  
+    public function dbConnect();
+    
+    public function freedBResource();
+    
+}
+
+Class Configuration implements setup{
+ 
+  public $dbHost="localhost";
+  
+  public $pword="itc";
+  
+  public $username="root";
+  
+  public $dbname="msaja002_jims2";
+  
+  public $dbhandle;
+   
+
+function _construct(){ 
+    
+    date_default_timezone_set('Africa/Nairobi'); //Global timezone -Used throughout application
+    
+}
+public function dbConnect(){
+    
+     $this->dbhandle= mysql_connect($this->dbHost, $this->username, $this->pword) or die("Unable to connect to MySQL"); //Connect to a database
+     
+     mysql_select_db($this->dbname,$this->dbhandle);
+  
+ }
+ 
+ public function freedBResource(){
+     
+     mysql_close($this->dbhandle); //Free database resources after transactions
+     
+ }
+ 
+ /*public function DatabaseConnection(setup $s){
+     
+     $s->dbConnect();
+     
+     $s->freedBResource();
+ }*/
+ }
+?>
